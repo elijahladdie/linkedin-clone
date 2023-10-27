@@ -13,7 +13,9 @@ a {
   text-decoration: none;
   color: silver;
 }
-
+.screen-tablet{
+  display: none;
+}
 .navbar {
   display: flex;
   align-items: center;
@@ -356,6 +358,8 @@ padding: 1.5px 0;
 
 .sidebar-ad {
   background: url('https://elijahladdie.github.io/linkedin-clone/images/advertsement.png');
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 15px 25px;
   text-align: center;
   margin: 12px 0;
@@ -727,6 +731,6 @@ padding: 1.5px 0;
   .navbar-center ul {
     display: flex;
     flex-wrap: wrap;
-    /* flex-direction: column; */
   }
 }
+
