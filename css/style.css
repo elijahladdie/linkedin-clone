@@ -355,7 +355,7 @@ padding: 1.5px 0;
 }
 
 .sidebar-ad {
-  background: url(./images/advertsement.png);
+  background: url('https://elijahladdie.github.io/linkedin-clone/images/advertsement.png');
   padding: 15px 25px;
   text-align: center;
   margin: 12px 0;
